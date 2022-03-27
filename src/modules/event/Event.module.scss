@@ -1,0 +1,95 @@
+$w: 330px;
+$h: 330px;
+$multiply: 1;
+
+.hex {
+  width: 330px;
+  height: 330px;
+  text-align: center;
+  background: yellow;
+  display: inline-block;
+}
+
+.badge {
+  width: 180px;
+  height: 280px;
+  background: #FFF;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10%;
+  
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(187, 187, 187);
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+    z-index: -1;
+  }
+
+  &::before {
+    transform: rotate(60deg);
+  }
+
+  &::after {
+    transform: rotate(-60deg);
+  }
+  
+  
+}
+
+
+
+
+
+
+
+// --------------- TRIANGLE ----------------------
+
+
+
+
+
+.testclass {
+  width: 20px;
+  height: 20px;
+}
+
+// .triangle {
+//   width: 7rem;
+//   height: 11.625rem;
+//   background: red;
+//   transform: skew(30deg);
+//   border-top-right-radius: 5%;
+//   border-bottom-right-radius: 10%;
+// }
+
+.triangle {
+	position: relative;
+	background-color: orange;
+	text-align: left;
+}
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangle,
+.triangle:after {
+	width:  10em;
+	height: 10em;
+	border-top-right-radius: 30%;
+}
+
+.triangle {
+	transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
