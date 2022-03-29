@@ -1,18 +1,17 @@
 import { useState } from 'react/cjs/react.development'
 import styles from './Sandbox.module.scss'
 
-
-
 const Hex = ({ index, i, ...data }) => {
-  let display = (index < 0 || index > 4) && {
+
+  let visible = (index < 0 || index > 4) && {
     "visibility": "hidden",
     "opacity": "0",
   }
 
   let style = {
-    "left": `${index * 100}px`,
-    "top": `${index * 100}px`,
-    ...display
+    "left": `${index * 150}px`,
+    "top": `${index * 150}px`,
+    ...visible
   }
 
   if (index === 2) return (
@@ -33,10 +32,8 @@ const Hex = ({ index, i, ...data }) => {
 
 export const Sandbox = ({ array }) => {
   const [position, changePosition] = useState(0)
-  console.log(position);
+
   const onWheel = (e) => {
-
-
     // if (order >= -2 || order <= 2) return;
     if (e.deltaY > 0) {
       if (position === 2) return;

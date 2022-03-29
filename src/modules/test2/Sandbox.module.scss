@@ -22,7 +22,7 @@
   border: 1px solid;
   position: absolute;
   font-size: 25px;
-  transition: .4s;
+  transition: top .4s .5s;
   
   &Active {
     background-color: pink;
@@ -33,5 +33,24 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+  }
+}
+
+.outOfScreen {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@keyframes test {
+  0% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: green;
   }
 }

@@ -1,5 +1,5 @@
 import styles from './App.module.scss';
-import { Sandbox } from './modules/test/Sandbox';
+import { Sandbox } from './modules/test3/Sandbox';
 
 
 function App() {
