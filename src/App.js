@@ -1,33 +1,58 @@
 import styles from './App.module.scss';
-import { Sandbox } from './modules/test3/Sandbox';
+import { Sandbox } from './modules/test2-2-3/Sandbox';
 
 
 function App() {
   let array = [
     {
       location: "Стадион",
-      date: "1 июня",
-      time: "01:00"
+      date: {
+        day: 1,
+        month: "июня",
+      },
+      time: "01:00",
+      rival_1: "Соперник №1",
+      rival_2: "Соперник №2"
     },
     {
       location: "Арена",
-      date: "2 июня",
-      time: "02:00"
+      date: {
+        day: 2,
+        month: "июня",
+      },
+      time: "02:00",
+      rival_1: "Соперник №3",
+      rival_2: "Соперник №4"
     },
     {
       location: "Стадион",
-      date: "3 июня",
-      time: "03:00"
+      date: {
+        day: 3,
+        month: "июня",
+      },
+      time: "03:00",
+      rival_1: "Соперник №5",
+      rival_2: "Соперник №6"
     },
     {
       location: "ДК",
-      date: "4 июня",
-      time: "04:00"
+      date: {
+        day: 4,
+        month: "июня",
+      },
+      time: "04:00",
+      rival_1: "Соперник №7",
+      rival_2: "Соперник №8"
     },
     {
       location: "Стадион",
-      date: "5 июня",
-      time: "05:00"
+      date: {
+        day: 5,
+        month: "июня",
+      },
+      time: "05:00",
+      rival_1: "Соперник №9",
+      rival_2: "Соперник №10"
     }
   ]
 

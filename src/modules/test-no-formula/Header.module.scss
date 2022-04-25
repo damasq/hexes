@@ -1,0 +1,52 @@
+.container {
+  position: absolute;
+  top: 0;
+  // border: 1px solid red;
+  width: 100%;
+  // height: 100px;
+  // display: flex;
+  // justify-content: space-between;
+  z-index: 1;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    // background: red;
+    padding: 30px;
+    // margin: 30px 40px;
+    font-size: 20px;
+    position: absolute;
+
+    &:nth-child(1) {
+      left: 0;
+      // transform: translate(-50%);
+    }
+
+    &:nth-child(2) {
+      left: 35%;
+      // transform: translate(-50%);
+    }
+
+    &:nth-child(3) {
+      left: 50%;
+      transform: translate(-50%);
+    }
+
+    &:nth-child(4) {
+      right: 35%;
+      // transform: translate(50%);
+    }
+
+    &:nth-child(5) {
+      right: 0%;
+      // transform: translate(-50%);
+    }
+  }
+
+  // .centerNav {
+  //   position: absolute;
+  //   left: 50%;
+  //   transform: translateX(-50%);
+  // }
+
+}

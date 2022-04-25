@@ -5,8 +5,8 @@
 
 .wrapper {
   background: darkgray;
-  width: 750px;
-  height: 750px;
+  width: 100%;
+  height: 100%;
   position: relative;
   left: 50%;
   top: 50%;
@@ -22,9 +22,9 @@
   border: 1px solid;
   position: absolute;
   font-size: 25px;
-  transition: .4s;
+  transition: 0.4s;
   // transition: left .4s .5s;
-  
+
   &Active {
     background-color: pink;
     font-size: 15px;
