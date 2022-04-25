@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/hexes/static/css/main.079310b2.chunk.css",
-    "main.js": "/hexes/static/js/main.7afde40a.chunk.js",
-    "main.js.map": "/hexes/static/js/main.7afde40a.chunk.js.map",
-    "runtime-main.js": "/hexes/static/js/runtime-main.fdc53d1a.js",
-    "runtime-main.js.map": "/hexes/static/js/runtime-main.fdc53d1a.js.map",
-    "static/js/2.b8784eae.chunk.js": "/hexes/static/js/2.b8784eae.chunk.js",
-    "static/js/2.b8784eae.chunk.js.map": "/hexes/static/js/2.b8784eae.chunk.js.map",
+    "main.js": "/hexes/static/js/main.a0138f24.chunk.js",
+    "main.js.map": "/hexes/static/js/main.a0138f24.chunk.js.map",
+    "runtime-main.js": "/hexes/static/js/runtime-main.46705368.js",
+    "runtime-main.js.map": "/hexes/static/js/runtime-main.46705368.js.map",
+    "static/js/2.cab0b76a.chunk.js": "/hexes/static/js/2.cab0b76a.chunk.js",
+    "static/js/2.cab0b76a.chunk.js.map": "/hexes/static/js/2.cab0b76a.chunk.js.map",
     "index.html": "/hexes/index.html",
     "static/css/main.079310b2.chunk.css.map": "/hexes/static/css/main.079310b2.chunk.css.map",
-    "static/js/2.b8784eae.chunk.js.LICENSE.txt": "/hexes/static/js/2.b8784eae.chunk.js.LICENSE.txt"
+    "static/js/2.cab0b76a.chunk.js.LICENSE.txt": "/hexes/static/js/2.cab0b76a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fdc53d1a.js",
-    "static/js/2.b8784eae.chunk.js",
+    "static/js/runtime-main.46705368.js",
+    "static/js/2.cab0b76a.chunk.js",
     "static/css/main.079310b2.chunk.css",
-    "static/js/main.7afde40a.chunk.js"
+    "static/js/main.a0138f24.chunk.js"
   ]
 }
