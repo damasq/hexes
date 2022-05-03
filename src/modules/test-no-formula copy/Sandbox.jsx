@@ -12,12 +12,10 @@ const Hex = ({ centerIndex, order, onClick, ...data }) => {
       className={`${styles.hex} ${styles.hexActive} ${styles[thisHexPosition]}`}
       onClick={() => onClick(centerIndex)}
     >
-      <div className={styles.hexWrapper}>
-        <p className={styles.location}>{data.location}</p>
-        <p className={styles.date}>{data.date.day} {data.date.month}</p>
-        <p className={styles.time}>{data.time}</p>
-        <button> Купить билет</button>
-      </div>
+      <p className={styles.location}>{data.location}</p>
+      <p className={styles.date}>{data.date.day} {data.date.month}</p>
+      <p className={styles.time}>{data.time}</p>
+      <button> Купить билет</button>
     </div>
   )
 
@@ -55,18 +53,18 @@ export const Sandbox = ({ array }) => {
   return (
     <>
       <div className={styles.main} onWheel={onWheel}>
-        {/* <div className={styles.background}>
+        <div className={styles.background}>
           <div className={styles.innerCircle}></div>
           <div className={styles.outerCircle}></div>
-        </div> */}
+        </div>
         {/* <Header /> */}
         <div className={styles.wrapper}>
-          {/* <div className={styles.firstRival}>
+          <div className={styles.firstRival}>
             <p className={styles.firstRivalName}>test</p>
           </div>
           <div className={styles.secondRival}>
             <p className={styles.secondRivalName}>test</p>
-          </div> */}
+          </div>
           {array.map((data, i) =>
             <Hex
               key={i}

@@ -1,5 +1,6 @@
 import styles from './App.module.scss';
-import { Sandbox } from './modules/test2-2-3/Sandbox';
+import { Sandbox } from './modules/test-no-formula/Sandbox';
+// import { Sandbox } from './modules/vh/Sandbox';
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
       location: "Стадион",
       date: {
         day: 3,
-        month: "июня",
+        month: "cenyujik",
       },
       time: "03:00",
       rival_1: "Соперник №5",

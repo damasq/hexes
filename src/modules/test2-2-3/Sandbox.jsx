@@ -1,4 +1,4 @@
-import { useState } from 'react/cjs/react.development'
+import { useState } from 'react'
 import styles from './Sandbox.module.scss'
 import cn from 'classnames/bind'
 import { Header } from './Header';
